@@ -43,7 +43,9 @@
 <body class="lexend-font">
     <header class="bg-secondary pt-6 pb-14">
         <nav class="container mx-auto px-5 flex justify-between items-center">
-            <div class="text-xl font-semibold text-dark btn bg-primary">Blog</div>
+            <div class="text-xl font-semibold text-dark btn bg-primary">
+                <a href="./blog.html">Blog</a>
+            </div>
             <div class="md:flex gap-2 justify-center items-center hidden">
                 <img src="./assets/logo.png" alt="">
                 <h3 class="text-xl font-semibold text-dark">Donate Bangladesh</h3>
@@ -59,40 +61,112 @@
     </header>
     <main class="container mx-auto p-5">
         <!-- button create -->
-        <div class="mt-10 flex justify-center items-center gap-8">
-            <button class="btn">Donation</button>
-            <button class="btn">History</button>
-        </div>
+        <section>
+            <div class="mt-10 flex justify-center items-center gap-8">
+                <button id="donation-btn" class="btn bg-primary">Donation</button>
+                <button id="history-btn" class="btn">History</button>
+            </div>
 
-        <!-- donation card section start -->
-        <div class="hero border border-gray-100 rounded-2xl p-8 my-10">
-            <div class="hero-content gap-8 flex-col lg:flex-row">
-                <img src="./assets/noakhali.png"
-                    class=" rounded-lg " />
-                <div>
-                    <div class="flex items-center gap-2 font-semibold text-dark2">
-                        <img src="./assets/coin.png" alt="">
-                        <p>
-                            <span>0</span>
-                            <span>BDT</span>
+        </section>
+        <!--  donation card section start -->
+        <section id="donation-section" class=" ">
+            <div class="hero border border-gray-100 rounded-2xl p-8 my-10">
+                <div class="hero-content gap-8 flex-col lg:flex-row">
+                    <img src="./assets/noakhali.png" class=" rounded-lg " />
+                    <div>
+                        <div class="flex items-center gap-2 font-semibold text-dark2">
+                            <img src="./assets/coin.png" alt="">
+                            <p>
+                                <span>0</span>
+                                <span>BDT</span>
+                            </p>
+                        </div>
+                        <h1 class="text-xl font-bold text-dark">Donate for Flood at Noakhali, Bangladesh</h1>
+                        <p class="py-6 text-dark2">
+                            The recent floods in Noakhali have caused significant damage to homes infrastructure. Your
+                            donation will help provide essential supplies and to those affected by this disaster. Every
+                            contribution, big or small, makes difference. Please join us in supporting the relief
+                            efforts and making a positive impact on the lives of those in need.
                         </p>
+                        <div class="my-6 border rounded-xl">
+                            <input type="text" class="w-full input" placeholder="Username" />
+                        </div>
+                        <button class="btn bg-primary w-full text-center">Donate Now</button>
                     </div>
-                    <h1 class="text-xl font-bold text-dark">Donate for Flood at Noakhali, Bangladesh</h1>
-                    <p class="py-6 text-dark2">
-                        The recent floods in Noakhali have caused significant damage to homes  infrastructure. Your donation will help provide essential supplies and  to those affected by this disaster. Every contribution, big or small, makes  difference. Please join us in supporting the relief efforts and making a positive impact on the lives of those in need.
-                    </p>
-                    <div class="py-6">
-                         <input  type="text" class="w-full input" placeholder="Username" />
-                    </div>
-                    <button class="btn bg-primary w-full text-center">Donate Now</button>
                 </div>
             </div>
-        </div>
+            <!-- card 2 -->
+            <div class="hero border border-gray-100 rounded-2xl p-8 my-10">
+                <div class="hero-content gap-8 flex-col lg:flex-row">
+                    <img src="./assets/feni.png" class=" rounded-lg " />
+                    <div>
+                        <div class="flex items-center gap-2 font-semibold text-dark2">
+                            <img src="./assets/coin.png" alt="">
+                            <p>
+                                <span>600</span>
+                                <span>BDT</span>
+                            </p>
+                        </div>
+                        <h1 class="text-xl font-bold text-dark">Donate for Flood Relief in Feni,Bangladesh</h1>
+                        <p class="py-6 text-dark2">
+                            The recent floods in Noakhali have caused significant damage to homes infrastructure. Your
+                            donation will help provide essential supplies and to those affected by this disaster. Every
+                            contribution, big or small, makes difference. Please join us in supporting the relief
+                            efforts and making a positive impact on the lives of those in need.
+                        </p>
+                        <div class="my-6 border rounded-xl">
+                            <input type="text" class="w-full input" placeholder="Username" />
+                        </div>
+                        <button class="btn bg-primary w-full text-center">Donate Now</button>
+                    </div>
+                </div>
+            </div>
+            <!-- care 3 -->
+            <div class="hero border border-gray-100 rounded-2xl p-8 my-10">
+                <div class="hero-content gap-8 flex-col lg:flex-row">
+                    <img src="./assets/quota-protest.png" class=" rounded-lg " />
+                    <div>
+                        <div class="flex items-center gap-2 font-semibold text-dark2">
+                            <img src="./assets/coin.png" alt="">
+                            <p>
+                                <span>2400</span>
+                                <span>BDT</span>
+                            </p>
+                        </div>
+                        <h1 class="text-xl font-bold text-dark">Aid for Injured in the Quota Movement</h1>
+                        <p class="py-6 text-dark2">
+                            The recent floods in Noakhali have caused significant damage to homes infrastructure. Your
+                            donation will help provide essential supplies and to those affected by this disaster. Every
+                            contribution, big or small, makes difference. Please join us in supporting the relief
+                            efforts and making a positive impact on the lives of those in need.
+                        </p>
+                        <div class="my-6 border rounded-xl">
+                            <input type="text" class="w-full input" placeholder="Username" />
+                        </div>
+                        <button class="btn bg-primary w-full text-center">Donate Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
         <!-- donation card section end -->
 
-
-
+        <!-- History section start  -->
+        <section id="history-section" class="hidden">
+            <div class="flex flex-col justify-center items-center my-10 h-80">
+                <div>
+                    <h1 class="text-5xl text-red-500 font-bold">Now History Not available</h1>
+                </div>
+            </div>
+        </section>
+        <!-- History section end -->
+         
     </main>
+    <footer class="bg-secondary h-36">
+
+    </footer>
+
+    <!-- link javaScript  -->
+     <script src="./js/main.js"></script>
 </body>
 
 </html>
