@@ -1,4 +1,3 @@
-// target all file
 
 
 // donation button and history button
@@ -18,3 +17,11 @@ document.getElementById('donation-btn').addEventListener('click', function(){
     document.getElementById('donation-btn').classList.add('bg-primary')
 })
 
+// target all file
+const totalBalanceEl = document.getElementById('total-balance')
+const donateBalanceEl = document.getElementById('donate-balance')
+const inputEl = document.getElementById('input-balance')
+
+document.getElementById('donat-btn').addEventListener('click', function(){
+    handelDonateBtn()
+})
