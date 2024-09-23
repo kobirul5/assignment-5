@@ -53,7 +53,6 @@ function handelDonateBtn() {
         return alert('Donation amount is not valid')
     }
     else {
-        showModal()
         document.getElementById('total-balance').innerText = totalBalance - inputBalance;
         document.getElementById('donate-balance').innerText = donateBalance + inputBalance;
         historyAddEl.innerHTML += `<div class="border p-10 rounded-2xl space-y-4 m-10">
